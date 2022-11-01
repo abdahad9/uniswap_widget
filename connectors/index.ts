@@ -16,7 +16,7 @@ export function getConnectorName(connector: Connector): string {
     throw new Error('Unknown Connector')
   }
 }
-
+  
 export const connectors = [metaMask, walletConnect]
 
 export function useActiveProvider(): Web3Provider | undefined {

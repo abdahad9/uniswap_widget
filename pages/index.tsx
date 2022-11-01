@@ -8,7 +8,7 @@ import '@uniswap/widgets/fonts.css'
 // ↑↑↑
 
 import styles from '../styles/Home.module.css'
-import DocumentationCards from '../components/DocumentationCards'
+// import DocumentationCards from '../components/DocumentationCards'
 import Web3Connectors from '../components/Web3Connectors'
 import { useActiveProvider } from '../connectors'
 import { useCallback, useRef, useState } from 'react'
@@ -76,7 +76,7 @@ const Home: NextPage = () => {
 
         <hr className={styles.rule} />
 
-        <DocumentationCards />
+        {/* <DocumentationCards /> */}
       </main>
     </div>
   )
