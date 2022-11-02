@@ -62,14 +62,14 @@ const Home: NextPage = () => {
 
           <div className={styles.widget}>
             <SwapWidget
-              jsonRpcEndpoint={JSON_RPC_URL}
-              tokenList={TOKEN_LIST}
+              // jsonRpcEndpoint={JSON_RPC_URL}
+              // tokenList={TOKEN_LIST}
               provider={provider}
-              locale={locale}
-              onConnectWallet={focusConnectors}
+              // locale={locale}
+              // onConnectWallet={focusConnectors}
               defaultInputTokenAddress="NATIVE"
               defaultInputAmount="1"
-              defaultOutputTokenAddress={UNI}
+              // defaultOutputTokenAddress={UNI}
             />
           </div>
         </div>
